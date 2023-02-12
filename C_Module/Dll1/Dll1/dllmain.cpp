@@ -17,7 +17,7 @@ extern "C"
 
 	VideoCapture cap(0);
 
-	EXPORT Mat stream()
+	EXPORT void stream()
 	{
 		Mat frame;
 		cap >> frame;
